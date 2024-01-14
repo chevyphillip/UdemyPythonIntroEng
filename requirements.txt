@@ -1,7 +1,5 @@
+-r requirements-dev.txt
+
 # Libraries
-ipython
-ipykernel
 numpy
 matplotlib
-
--r requirements-dev.txt
