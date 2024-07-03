@@ -14,7 +14,7 @@ E.g. Student('Jan', 'Schaffranek', 29, 1080133228459) will print:
 
 
 class Student:
-    def __init__(self):  # noqa: ANN204
+    def __init__(self):
         pass
 
     def print_student(self):
