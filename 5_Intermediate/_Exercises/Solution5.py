@@ -15,11 +15,7 @@ E.g. Student('Jan', 'Schaffranek', 28, 1080133228459) will print:
 # Exercise 1
 class Student:
     def __init__(
-        self,
-        name: str,
-        lastname: str,
-        age: int,
-        id: int,  # noqa: A002
+        self, name: str, lastname: str, age: int, id: int  # noqa: A002
     ) -> None:
         self.name = name
         self.lastname = lastname
@@ -35,19 +31,9 @@ class Student:
 
 
 def main() -> None:
-    oskar = Student(
-        "Oskar",
-        "Oskarson",
-        29,
-        1080132254623,
-    )
+    oskar = Student("Oskar", "Oskarson", 29, 1080132254623)
     oskar.print_student()
-    jan = Student(
-        "Jan",
-        "Schaffranek",
-        29,
-        1080133228459,
-    )
+    jan = Student("Jan", "Schaffranek", 29, 1080133228459)
     jan.print_student()
 
 

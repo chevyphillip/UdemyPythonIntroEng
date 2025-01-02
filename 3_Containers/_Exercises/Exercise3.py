@@ -19,11 +19,7 @@ def exercise2(dct):
     pass
 
 
-d = {
-    "Oskar": "Student",
-    "Jan": "Instructor",
-    "Thomas": "Student",
-}
+d = {"Oskar": "Student", "Jan": "Instructor", "Thomas": "Student"}
 print(exercise1(d))
 
 exercise2(d)

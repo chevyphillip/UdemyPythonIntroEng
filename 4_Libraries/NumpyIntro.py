@@ -9,12 +9,7 @@ def main() -> None:
     print(np.mean(vec))
     print(vec.shape)
 
-    matrix = np.array(
-        [
-            [1, 2],
-            [3, 4],
-        ]
-    )
+    matrix = np.array([[1, 2], [3, 4]])
     print(np.max(matrix))
     print(np.min(matrix))
     print(np.max(matrix, axis=0))  # column wise
